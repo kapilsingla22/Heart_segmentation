@@ -36,7 +36,8 @@ In this project we have to basically segment 3 heart chambers that are left vent
 - Dic coeff is also between 0 to 1 and 1 means perfect segmented image. Here we find dice coeff for 4 different areas and then we are taking the average
 
 
-  ## 4. Training Results
+  ## 4. Training Results: Accuracy-98.17%, IOU-0.93
+  Results with unet were: Accuracy-95%, IOU-0.90
   - Following are the results which we are getting after training for 170 epochs.
     
   - Left side are results after training after 1st epoch and right side are results after training for 170 epochs.
@@ -55,8 +56,9 @@ In this project we have to basically segment 3 heart chambers that are left vent
 
   
 
-## 5. Testing Results
-
+## 5. Testing Results: Accuracy-98.25%, IOU-0.94
+  Results with unet were: Accuracy-95.4%, IOU-0.89
+  
  - Following are the Testing results for accuracy, loss, Jaccard, Dice value.
 
 
