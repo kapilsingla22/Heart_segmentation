@@ -18,10 +18,7 @@ In this project we have to basically segment 3 heart chambers that are left vent
 - so after spiltting our image into 4 channels we are getting output as shown below. This is our single ground truth which we spilitted into 4 different images. 
 
   
-![cmos_inverter_schematic](./Images/gt1.png)<br>
-![cmos_inverter_schematic](./Images/gt2.png)<br>
-![cmos_inverter_schematic](./Images/gt3.png)<br>
-![cmos_inverter_schematic](./Images/gt4.png)<br>
+![cmos_inverter_schematic](./Images/gt1.png) ![cmos_inverter_schematic](./Images/gt2.png) ![cmos_inverter_schematic](./Images/gt3.png) ![cmos_inverter_schematic](./Images/gt4.png)<br>
 
 
 -  We have a batch size of 12 for training and batch size of 4 for testing. We also do transfrom in which we just reshape our image into a dimension of 256x256x20 and then convert the image into tensor.
@@ -41,14 +38,10 @@ In this project we have to basically segment 3 heart chambers that are left vent
 
   ## 4. Training Results
   - Following are the results which we are getting after training for 170 epochs.
-  - These are the training results after 1st epoch.
-
- ![cmos_inverter_schematic](./Images/results_after_1_epoch.png)<br> 
-
+    
+  - Left side are results after training after 1st epoch and right side are results after training for 170 epochs.
  
-  - These are the results after training for 170th epoch.
- 
-  ![cmos_inverter_schematic](./Images/result_after_170_epoch.png)<br>
+![Image 1](./Images/results_after_1_epoch.png)  ![Image 2](./Images/result_after_170_epoch.png)
 
 - Following are the training results for accuracy, loss, Jaccard, Dice value.
 
